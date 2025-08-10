@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { ChevronDown, Globe } from 'lucide-react';
 import { useRouter, usePathname } from 'next/navigation';
 
@@ -12,14 +12,14 @@ const LanguageSwitcher = () => {
   const pathname = usePathname();
 
   // Pathname'den locale'i çıkar
-  const getCurrentLocale = () => {
+  const getCurrentLocale = useCallback(() => {
     for (const loc of locales) {
       if (pathname.startsWith(`/${loc}`)) {
         return loc;
       }
     }
     return 'tr'; // Varsayılan
-  };
+  }, [pathname]);
 
   const locale = getCurrentLocale();
 
@@ -77,7 +77,7 @@ const LanguageSwitcher = () => {
       const newPath = `/${preferredLocale}${pathWithoutLocale}`;
       router.push(newPath as any);
     }
-  }, [pathname, router]);
+  }, [pathname, router, getCurrentLocale]);
 
 
 

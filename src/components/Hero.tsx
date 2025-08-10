@@ -1,18 +1,13 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowRight, Building2, Users, Target, Award } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 const Hero = () => {
   const t = useTranslations();
 
-  const stats = [
-    { icon: Building2, label: '4 Şirket', value: 'Çatı Kuruluş' },
-    { icon: Users, label: 'Deneyimli', value: 'Ekip' },
-    { icon: Target, label: 'Odaklı', value: 'Çözümler' },
-    { icon: Award, label: 'Kaliteli', value: 'Hizmet' },
-  ];
+
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-indigo-50 pt-16">

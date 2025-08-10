@@ -3,14 +3,10 @@
 import { motion } from 'framer-motion';
 import { 
   Building2, 
-  Users, 
-  Target, 
-  Award,
   MapPin,
   Phone,
   Mail
 } from 'lucide-react';
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 const Companies = () => {

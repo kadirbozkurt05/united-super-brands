@@ -19,7 +19,7 @@ export default getRequestConfig(async ({ locale }) => {
       locale,
       messages
     };
-  } catch (error) {
+  } catch {
     // Fallback to Turkish
     const fallbackMessages = (await import(`./messages/tr.json`)).default;
     
