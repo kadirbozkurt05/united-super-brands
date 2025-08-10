@@ -1,0 +1,106 @@
+{
+  "navigation": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "companies": "شركاتنا",
+    "contact": "اتصل بنا"
+  },
+  "hero": {
+    "title": "United Super Brands",
+    "subtitle": "كشركة قابضة لـ 4 شركات مختلفة، نخلق عائلة قوية",
+    "discoverButton": "اكتشف شركاتنا",
+    "contactButton": "اتصل بنا"
+  },
+  "about": {
+    "title": "من نحن",
+    "subtitle": "United Super Brands، كشركة قابضة لـ 4 شركات مختلفة، تخلق هيكلاً أقوى من خلال الجمع بين نقاط القوة لكل من شركاتنا.",
+    "vision": "رؤيتنا",
+    "visionText": "من خلال الجمع بين نقاط القوة لشركاتنا الأربع التي هي رائدة في قطاعاتها، نقدم لعملائنا أعلى جودة من المنتجات والخدمات. من خلال العمل بهدف التميز في مجال الخبرة الخاص بكل شركة، نبني مستقبلاً أقوى معاً.",
+    "visionText2": "مع فرقنا الخبيرة والبنية التحتية القوية، كل من شركاتنا في موقع ريادي في مجالها الخاص.",
+    "stats": {
+      "companies": "الشركات",
+      "companiesDesc": "الشركة القابضة",
+      "unlimited": "غير محدود",
+      "unlimitedDesc": "الإمكانات والابتكار",
+      "customer": "العميل",
+      "customerDesc": "التركيز على الرضا"
+    },
+    "features": {
+      "unity": {
+        "title": "الوحدة القوية",
+        "description": "نخلق هيكلاً أقوى من خلال الجمع بين نقاط القوة لـ 4 شركات مختلفة."
+      },
+      "team": {
+        "title": "الفريق الخبير",
+        "description": "كل من شركاتنا لديها فرق مهنية مع سنوات من الخبرة."
+      },
+      "network": {
+        "title": "الشبكة الواسعة",
+        "description": "نقدم حلولاً شاملة مع الشبكة القوية لشركاتنا الأربع المختلفة."
+      },
+      "quality": {
+        "title": "ضمان الجودة",
+        "description": "نضمن أعلى معايير الجودة في كل من شركاتنا."
+      }
+    }
+  },
+  "companies": {
+    "title": "شركاتنا",
+    "subtitle": "4 شركات مختلفة تعمل تحت مظلة United Super Brands، كل منها متخصصة ورائدة في مجالها الخاص.",
+    "albaFood": {
+      "name": "Alba Food",
+      "description": "شركة رائدة تقدم منتجات عالية الجودة وحلول مبتكرة في قطاع الأغذية.",
+      "features": ["منتجات غذائية عالية الجودة", "حلول مبتكرة", "إمداد موثوق"]
+    },
+    "usbFood": {
+      "name": "USB Food",
+      "description": "شركة متخصصة في تقنيات الأغذية والحلول الرقمية.",
+      "features": ["تقنيات الأغذية", "الحلول الرقمية", "الإنتاج المستدام"]
+    },
+    "loremIpsum1": {
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    },
+    "loremIpsum2": {
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    },
+    "contactInfo": "معلومات الاتصال",
+    "cta": {
+      "title": "عائلة قوية",
+      "subtitle": "نبني مستقبلاً أقوى معاً مع شركاتنا الأربع.",
+      "button": "اعرف المزيد"
+    }
+  },
+  "footer": {
+    "description": "كشركة قابضة لـ 4 شركات مختلفة، نخلق هيكلاً أقوى من خلال الجمع بين نقاط القوة لكل من شركاتنا.",
+    "sections": {
+      "company": "الشركة",
+      "companies": "شركاتنا",
+      "support": "الدعم"
+    },
+    "links": {
+      "career": "الوظائف",
+      "press": "الصحافة",
+      "faq": "الأسئلة الشائعة",
+      "privacy": "سياسة الخصوصية"
+    },
+    "newsletter": {
+      "title": "انضم إلى نشرتنا الإخبارية",
+      "subtitle": "اشترك للحصول على آخر الأخبار والتحديثات.",
+      "placeholder": "عنوان بريدك الإلكتروني",
+      "button": "اشتراك"
+    },
+    "copyright": "جميع الحقوق محفوظة."
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "es": "Español",
+    "ar": "العربية"
+  }
+}

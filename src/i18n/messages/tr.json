@@ -1,0 +1,106 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "companies": "Şirketlerimiz",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "United Super Brands",
+    "subtitle": "4 farklı şirketin çatı kuruluşu olarak, güçlü bir aile oluşturuyoruz",
+    "discoverButton": "Şirketlerimizi Keşfedin",
+    "contactButton": "İletişime Geçin"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "United Super Brands, 4 farklı şirketin çatı kuruluşu olarak, her bir şirketimizin güçlü yanlarını birleştirerek daha güçlü bir yapı oluşturmaktadır.",
+    "vision": "Vizyonumuz",
+    "visionText": "Sektörde lider konumda olan 4 şirketimizin güçlerini birleştirerek, müşterilerimize en kaliteli ürün ve hizmetleri sunmak. Her şirketimizin kendi uzmanlık alanında mükemmellik hedefiyle çalışarak, birlikte daha güçlü bir gelecek inşa etmek.",
+    "visionText2": "Deneyimli ekiplerimiz ve güçlü altyapımızla, her bir şirketimiz kendi alanında öncü konumda yer almaktadır.",
+    "stats": {
+      "companies": "Şirket",
+      "companiesDesc": "Çatı kuruluşumuz",
+      "unlimited": "Sınırsız",
+      "unlimitedDesc": "Potansiyel ve inovasyon",
+      "customer": "Müşteri",
+      "customerDesc": "Memnuniyeti odaklı"
+    },
+    "features": {
+      "unity": {
+        "title": "Güçlü Birlik",
+        "description": "4 farklı şirketin güçlerini birleştirerek daha güçlü bir yapı oluşturuyoruz."
+      },
+      "team": {
+        "title": "Deneyimli Ekip",
+        "description": "Her şirketimizde uzun yıllar deneyime sahip profesyonel ekipler bulunmaktadır."
+      },
+      "network": {
+        "title": "Geniş Ağ",
+        "description": "4 farklı şirketimizin güçlü ağı ile kapsamlı çözümler sunuyoruz."
+      },
+      "quality": {
+        "title": "Kalite Garantisi",
+        "description": "Her şirketimizde en yüksek kalite standartlarını garanti ediyoruz."
+      }
+    }
+  },
+  "companies": {
+    "title": "Şirketlerimiz",
+    "subtitle": "United Super Brands çatısı altında faaliyet gösteren 4 farklı şirketimiz, her biri kendi alanında uzmanlaşmış ve lider konumda yer almaktadır.",
+    "albaFood": {
+      "name": "Alba Food",
+      "description": "Gıda sektöründe kaliteli ürünler ve yenilikçi çözümler sunan lider şirket.",
+      "features": ["Kaliteli Gıda Ürünleri", "Yenilikçi Çözümler", "Güvenilir Tedarik"]
+    },
+    "usbFood": {
+      "name": "USB Food",
+      "description": "Gıda teknolojileri ve dijital çözümler konusunda uzmanlaşmış şirket.",
+      "features": ["Gıda Teknolojileri", "Dijital Çözümler", "Sürdürülebilir Üretim"]
+    },
+    "loremIpsum1": {
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    },
+    "loremIpsum2": {
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    },
+    "contactInfo": "İletişim Bilgileri",
+    "cta": {
+      "title": "Güçlü Bir Aile",
+      "subtitle": "4 şirketimizle birlikte daha güçlü bir gelecek inşa ediyoruz.",
+      "button": "Daha Fazla Bilgi"
+    }
+  },
+  "footer": {
+    "description": "4 farklı şirketin çatı kuruluşu olarak, her bir şirketimizin güçlü yanlarını birleştirerek daha güçlü bir yapı oluşturuyoruz.",
+    "sections": {
+      "company": "Şirket",
+      "companies": "Şirketlerimiz",
+      "support": "Destek"
+    },
+    "links": {
+      "career": "Kariyer",
+      "press": "Basın",
+      "faq": "SSS",
+      "privacy": "Gizlilik Politikası"
+    },
+    "newsletter": {
+      "title": "Bültenimize Katılın",
+      "subtitle": "En son haberler ve güncellemeler için abone olun.",
+      "placeholder": "E-posta adresiniz",
+      "button": "Abone Ol"
+    },
+    "copyright": "Tüm hakları saklıdır."
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "es": "Español",
+    "ar": "العربية"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "companies": "Nuestras Empresas",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "United Super Brands",
+    "subtitle": "Como holding de 4 empresas diferentes, creamos una familia fuerte",
+    "discoverButton": "Descubre Nuestras Empresas",
+    "contactButton": "Contáctanos"
+  },
+  "about": {
+    "title": "Acerca de Nosotros",
+    "subtitle": "United Super Brands, como holding de 4 empresas diferentes, crea una estructura más fuerte combinando las fortalezas de cada una de nuestras empresas.",
+    "vision": "Nuestra Visión",
+    "visionText": "Al combinar las fortalezas de nuestras 4 empresas que son líderes en sus sectores, proporcionamos a nuestros clientes los productos y servicios de la más alta calidad. Al trabajar con el objetivo de la excelencia en el área de experiencia propia de cada empresa, construimos un futuro más fuerte juntos.",
+    "visionText2": "Con nuestros equipos experimentados e infraestructura sólida, cada una de nuestras empresas está en una posición de liderazgo en su propio campo.",
+    "stats": {
+      "companies": "Empresas",
+      "companiesDesc": "Empresa Holding",
+      "unlimited": "Ilimitado",
+      "unlimitedDesc": "Potencial e Innovación",
+      "customer": "Cliente",
+      "customerDesc": "Enfocado en la Satisfacción"
+    },
+    "features": {
+      "unity": {
+        "title": "Unidad Fuerte",
+        "description": "Creamos una estructura más fuerte combinando las fortalezas de 4 empresas diferentes."
+      },
+      "team": {
+        "title": "Equipo Experimentado",
+        "description": "Cada una de nuestras empresas tiene equipos profesionales con años de experiencia."
+      },
+      "network": {
+        "title": "Red Amplia",
+        "description": "Proporcionamos soluciones integrales con la fuerte red de nuestras 4 empresas diferentes."
+      },
+      "quality": {
+        "title": "Garantía de Calidad",
+        "description": "Garantizamos los más altos estándares de calidad en cada una de nuestras empresas."
+      }
+    }
+  },
+  "companies": {
+    "title": "Nuestras Empresas",
+    "subtitle": "4 empresas diferentes que operan bajo el paraguas de United Super Brands, cada una especializada y líder en su propio campo.",
+    "albaFood": {
+      "name": "Alba Food",
+      "description": "Empresa líder que proporciona productos de calidad y soluciones innovadoras en el sector alimentario.",
+      "features": ["Productos Alimentarios de Calidad", "Soluciones Innovadoras", "Suministro Confiable"]
+    },
+    "usbFood": {
+      "name": "USB Food",
+      "description": "Empresa especializada en tecnologías alimentarias y soluciones digitales.",
+      "features": ["Tecnologías Alimentarias", "Soluciones Digitales", "Producción Sostenible"]
+    },
+    "loremIpsum1": {
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    },
+    "loremIpsum2": {
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    },
+    "contactInfo": "Información de Contacto",
+    "cta": {
+      "title": "Una Familia Fuerte",
+      "subtitle": "Construimos un futuro más fuerte juntos con nuestras 4 empresas.",
+      "button": "Más Información"
+    }
+  },
+  "footer": {
+    "description": "Como holding de 4 empresas diferentes, creamos una estructura más fuerte combinando las fortalezas de cada una de nuestras empresas.",
+    "sections": {
+      "company": "Empresa",
+      "companies": "Nuestras Empresas",
+      "support": "Soporte"
+    },
+    "links": {
+      "career": "Carrera",
+      "press": "Prensa",
+      "faq": "Preguntas Frecuentes",
+      "privacy": "Política de Privacidad"
+    },
+    "newsletter": {
+      "title": "Únete a Nuestro Boletín",
+      "subtitle": "Suscríbete para las últimas noticias y actualizaciones.",
+      "placeholder": "Tu dirección de correo electrónico",
+      "button": "Suscribirse"
+    },
+    "copyright": "Todos los derechos reservados."
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "es": "Español",
+    "ar": "العربية"
+  }
+}

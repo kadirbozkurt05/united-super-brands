@@ -1,0 +1,106 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "companies": "Our Companies",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "United Super Brands",
+    "subtitle": "As a holding company of 4 different companies, we create a strong family",
+    "discoverButton": "Discover Our Companies",
+    "contactButton": "Contact Us"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "United Super Brands, as a holding company of 4 different companies, creates a stronger structure by combining the strengths of each of our companies.",
+    "vision": "Our Vision",
+    "visionText": "By combining the strengths of our 4 companies that are leaders in their sectors, we provide our customers with the highest quality products and services. By working with the goal of excellence in each company's own area of expertise, we build a stronger future together.",
+    "visionText2": "With our experienced teams and strong infrastructure, each of our companies is in a leading position in their own field.",
+    "stats": {
+      "companies": "Companies",
+      "companiesDesc": "Holding Company",
+      "unlimited": "Unlimited",
+      "unlimitedDesc": "Potential and Innovation",
+      "customer": "Customer",
+      "customerDesc": "Satisfaction Focused"
+    },
+    "features": {
+      "unity": {
+        "title": "Strong Unity",
+        "description": "We create a stronger structure by combining the strengths of 4 different companies."
+      },
+      "team": {
+        "title": "Experienced Team",
+        "description": "Each of our companies has professional teams with years of experience."
+      },
+      "network": {
+        "title": "Wide Network",
+        "description": "We provide comprehensive solutions with the strong network of our 4 different companies."
+      },
+      "quality": {
+        "title": "Quality Guarantee",
+        "description": "We guarantee the highest quality standards in each of our companies."
+      }
+    }
+  },
+  "companies": {
+    "title": "Our Companies",
+    "subtitle": "4 different companies operating under the United Super Brands umbrella, each specialized and leading in their own field.",
+    "albaFood": {
+      "name": "Alba Food",
+      "description": "Leading company providing quality products and innovative solutions in the food sector.",
+      "features": ["Quality Food Products", "Innovative Solutions", "Reliable Supply"]
+    },
+    "usbFood": {
+      "name": "USB Food",
+      "description": "Company specialized in food technologies and digital solutions.",
+      "features": ["Food Technologies", "Digital Solutions", "Sustainable Production"]
+    },
+    "loremIpsum1": {
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    },
+    "loremIpsum2": {
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    },
+    "contactInfo": "Contact Information",
+    "cta": {
+      "title": "A Strong Family",
+      "subtitle": "We build a stronger future together with our 4 companies.",
+      "button": "Learn More"
+    }
+  },
+  "footer": {
+    "description": "As a holding company of 4 different companies, we create a stronger structure by combining the strengths of each of our companies.",
+    "sections": {
+      "company": "Company",
+      "companies": "Our Companies",
+      "support": "Support"
+    },
+    "links": {
+      "career": "Career",
+      "press": "Press",
+      "faq": "FAQ",
+      "privacy": "Privacy Policy"
+    },
+    "newsletter": {
+      "title": "Join Our Newsletter",
+      "subtitle": "Subscribe for the latest news and updates.",
+      "placeholder": "Your email address",
+      "button": "Subscribe"
+    },
+    "copyright": "All rights reserved."
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "es": "Español",
+    "ar": "العربية"
+  }
+}

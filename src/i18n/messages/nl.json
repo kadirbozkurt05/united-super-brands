@@ -1,0 +1,106 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Over Ons",
+    "companies": "Onze Bedrijven",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "United Super Brands",
+    "subtitle": "Als holding van 4 verschillende bedrijven creëren we een sterke familie",
+    "discoverButton": "Ontdek Onze Bedrijven",
+    "contactButton": "Neem Contact Op"
+  },
+  "about": {
+    "title": "Over Ons",
+    "subtitle": "United Super Brands, als holding van 4 verschillende bedrijven, creëert een sterkere structuur door de sterke punten van elk van onze bedrijven te combineren.",
+    "vision": "Onze Visie",
+    "visionText": "Door de sterke punten van onze 4 bedrijven die leiders zijn in hun sectoren te combineren, bieden we onze klanten de hoogste kwaliteit producten en diensten. Door te werken met het doel van excellentie in het eigen expertisegebied van elk bedrijf, bouwen we samen aan een sterkere toekomst.",
+    "visionText2": "Met onze ervaren teams en sterke infrastructuur staat elk van onze bedrijven in een leidende positie op hun eigen gebied.",
+    "stats": {
+      "companies": "Bedrijven",
+      "companiesDesc": "Holding Bedrijf",
+      "unlimited": "Onbeperkt",
+      "unlimitedDesc": "Potentieel en Innovatie",
+      "customer": "Klant",
+      "customerDesc": "Tevredenheid Gericht"
+    },
+    "features": {
+      "unity": {
+        "title": "Sterke Eenheid",
+        "description": "We creëren een sterkere structuur door de sterke punten van 4 verschillende bedrijven te combineren."
+      },
+      "team": {
+        "title": "Ervaren Team",
+        "description": "Elk van onze bedrijven heeft professionele teams met jarenlange ervaring."
+      },
+      "network": {
+        "title": "Uitgebreid Netwerk",
+        "description": "We bieden uitgebreide oplossingen met het sterke netwerk van onze 4 verschillende bedrijven."
+      },
+      "quality": {
+        "title": "Kwaliteitsgarantie",
+        "description": "We garanderen de hoogste kwaliteitsstandaarden in elk van onze bedrijven."
+      }
+    }
+  },
+  "companies": {
+    "title": "Onze Bedrijven",
+    "subtitle": "4 verschillende bedrijven die opereren onder de United Super Brands paraplu, elk gespecialiseerd en leidend in hun eigen veld.",
+    "albaFood": {
+      "name": "Alba Food",
+      "description": "Leidend bedrijf dat kwaliteitsproducten en innovatieve oplossingen biedt in de voedingssector.",
+      "features": ["Kwaliteitsvoedingsproducten", "Innovatieve Oplossingen", "Betrouwbare Levering"]
+    },
+    "usbFood": {
+      "name": "USB Food",
+      "description": "Bedrijf gespecialiseerd in voedingstechnologieën en digitale oplossingen.",
+      "features": ["Voedingstechnologieën", "Digitale Oplossingen", "Duurzame Productie"]
+    },
+    "loremIpsum1": {
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    },
+    "loremIpsum2": {
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    },
+    "contactInfo": "Contactgegevens",
+    "cta": {
+      "title": "Een Sterke Familie",
+      "subtitle": "We bouwen samen aan een sterkere toekomst met onze 4 bedrijven.",
+      "button": "Meer Informatie"
+    }
+  },
+  "footer": {
+    "description": "Als holding van 4 verschillende bedrijven creëren we een sterkere structuur door de sterke punten van elk van onze bedrijven te combineren.",
+    "sections": {
+      "company": "Bedrijf",
+      "companies": "Onze Bedrijven",
+      "support": "Ondersteuning"
+    },
+    "links": {
+      "career": "Carrière",
+      "press": "Pers",
+      "faq": "FAQ",
+      "privacy": "Privacybeleid"
+    },
+    "newsletter": {
+      "title": "Schrijf Je In Voor Onze Nieuwsbrief",
+      "subtitle": "Abonneer je op het laatste nieuws en updates.",
+      "placeholder": "Je e-mailadres",
+      "button": "Abonneren"
+    },
+    "copyright": "Alle rechten voorbehouden."
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "es": "Español",
+    "ar": "العربية"
+  }
+}

@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import { notFound } from 'next/navigation';
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +20,6 @@ export const metadata: Metadata = {
   description: "United Super Brands, 4 farklı şirketin çatı kuruluşu olarak kurumsal çözümler sunmaktadır.",
   keywords: "United Super Brands, kurumsal, çatı şirket, iş çözümleri",
   authors: [{ name: "United Super Brands" }],
-  viewport: "width=device-width, initial-scale=1",
   icons: {
     icon: '/assets/logo.png',
     shortcut: '/assets/logo.png',
@@ -24,13 +27,30 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+};
+
+export default async function LocaleLayout({
   children,
+  params
 }: {
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
+  
+  // Desteklenen diller kontrolü
+  const locales = ['tr', 'en', 'nl', 'de', 'es', 'ar'];
+  if (!locales.includes(locale)) {
+    notFound();
+  }
+
+  const messages = await getMessages({ locale });
+
   return (
-    <html lang="tr">
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
       <head>
         <link rel="icon" href="/assets/logo.png" />
         <link rel="shortcut icon" href="/assets/logo.png" />
@@ -39,7 +59,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
