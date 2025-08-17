@@ -1,0 +1,107 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "companies": "Nos Entreprises",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "United Super Brands",
+    "subtitle": "En tant que société holding de 4 entreprises différentes, nous créons une famille forte",
+    "discoverButton": "Découvrez Nos Entreprises",
+    "contactButton": "Contactez-nous"
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "subtitle": "United Super Brands, en tant que société holding de 4 entreprises différentes, crée une structure plus forte en combinant les forces de chacune de nos entreprises.",
+    "vision": "Notre Vision",
+    "visionText": "En combinant les forces de nos 4 entreprises qui sont leaders dans leurs secteurs, nous fournissons à nos clients les produits et services de la plus haute qualité. En travaillant avec l'objectif d'excellence dans le domaine d'expertise propre à chaque entreprise, nous construisons ensemble un avenir plus fort.",
+    "visionText2": "Avec nos équipes expérimentées et notre infrastructure solide, chacune de nos entreprises occupe une position de leader dans son propre domaine.",
+    "stats": {
+      "companies": "Entreprises",
+      "companiesDesc": "Société Holding",
+      "unlimited": "Illimité",
+      "unlimitedDesc": "Potentiel et Innovation",
+      "customer": "Client",
+      "customerDesc": "Axé sur la Satisfaction"
+    },
+    "features": {
+      "unity": {
+        "title": "Unité Forte",
+        "description": "Nous créons une structure plus forte en combinant les forces de 4 entreprises différentes."
+      },
+      "team": {
+        "title": "Équipe Expérimentée",
+        "description": "Chacune de nos entreprises dispose d'équipes professionnelles avec des années d'expérience."
+      },
+      "network": {
+        "title": "Réseau Étendu",
+        "description": "Nous fournissons des solutions complètes avec le réseau fort de nos 4 entreprises différentes."
+      },
+      "quality": {
+        "title": "Garantie de Qualité",
+        "description": "Nous garantissons les plus hauts standards de qualité dans chacune de nos entreprises."
+      }
+    }
+  },
+  "companies": {
+    "title": "Nos Entreprises",
+    "subtitle": "4 entreprises différentes opérant sous l'égide d'United Super Brands, chacune spécialisée et leader dans son propre domaine.",
+    "albaFoodTrading": {
+      "name": "Alba Food Trading B.V.",
+      "description": "Entreprise leader fournissant des produits de qualité et des solutions innovantes dans le secteur alimentaire.",
+      "features": ["Produits Alimentaires de Qualité", "Solutions Innovantes", "Approvisionnement Fiable"]
+    },
+    "albaFoodAmsterdam": {
+      "name": "Alba Food Amsterdam",
+      "description": "Entreprise spécialisée dans le commerce alimentaire basée à Amsterdam, fournissant des produits et services alimentaires premium.",
+      "features": ["Produits Alimentaires Premium", "Basé à Amsterdam", "Service de Qualité"]
+    },
+    "usbFood": {
+      "name": "USB Food",
+      "description": "Entreprise spécialisée dans les technologies alimentaires et les solutions numériques.",
+      "features": ["Technologies Alimentaires", "Solutions Numériques", "Production Durable"]
+    },
+    "dutcheys": {
+      "name": "Dutchey's Dutch Sweet Company",
+      "description": "Spécialisée dans les bonbons et produits de confiserie néerlandais, apportant les saveurs traditionnelles néerlandaises au monde.",
+      "features": ["Bonbons Néerlandais", "Saveurs Traditionnelles", "Confiserie de Qualité"]
+    },
+    "contactInfo": "Informations de Contact",
+    "cta": {
+      "title": "Une Famille Forte",
+      "subtitle": "Nous construisons ensemble un avenir plus fort avec nos 4 entreprises.",
+      "button": "En Savoir Plus"
+    }
+  },
+  "footer": {
+    "description": "En tant que société holding de 4 entreprises différentes, nous créons une structure plus forte en combinant les forces de chacune de nos entreprises.",
+    "sections": {
+      "company": "Entreprise",
+      "companies": "Nos Entreprises",
+      "support": "Support"
+    },
+    "links": {
+      "career": "Carrière",
+      "press": "Presse",
+      "faq": "FAQ",
+      "privacy": "Politique de Confidentialité"
+    },
+    "newsletter": {
+      "title": "Rejoignez Notre Newsletter",
+      "subtitle": "Abonnez-vous aux dernières nouvelles et mises à jour.",
+      "placeholder": "Votre adresse e-mail",
+      "button": "S'abonner"
+    },
+    "copyright": "Tous droits réservés."
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "es": "Español",
+    "ar": "العربية",
+    "fr": "Français"
+  }
+}

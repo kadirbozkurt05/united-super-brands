@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { companies } from '../data/companies';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -24,12 +25,10 @@ const Footer = () => {
       { name: t('footer.links.career'), href: '#' },
       { name: t('footer.links.press'), href: '#' },
     ],
-    companies: [
-      { name: 'Alba Food', href: '#alba-food' },
-      { name: 'USB Food', href: '#usb-food' },
-      { name: 'Lorem Ipsum', href: '#lorem-ipsum-1' },
-      { name: 'Lorem Ipsum', href: '#lorem-ipsum-2' },
-    ],
+    companies: companies.map(company => ({
+      name: t(`companies.${company.translationKey}.name`),
+      href: `#${company.id}`
+    })),
     support: [
       { name: t('navigation.contact'), href: '#contact' },
       { name: t('footer.links.faq'), href: '#' },
@@ -78,11 +77,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-400">+90 (212) 555 0123</span>
+                <span className="text-gray-400">+31 (010) 318 1008</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-400">İstanbul, Türkiye</span>
+                <span className="text-gray-400">Capelle aan den IJssel, Netherlands</span>
               </div>
             </div>
           </motion.div>
@@ -192,20 +191,7 @@ const Footer = () => {
             <p className="text-gray-400 text-sm">
               © {currentYear} United Super Brands. {t('footer.copyright')}
             </p>
-            
-            {/* Social Links */}
-            <div className="flex space-x-4 mt-4 md:mt-0">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-200"
-                  aria-label={social.label}
-                >
-                  <social.icon className="w-5 h-5" />
-                </a>
-              ))}
-            </div>
+
           </div>
         </motion.div>
       </div>

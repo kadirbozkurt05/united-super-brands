@@ -15,15 +15,15 @@
     "title": "Acerca de Nosotros",
     "subtitle": "United Super Brands, como holding de 4 empresas diferentes, crea una estructura más fuerte combinando las fortalezas de cada una de nuestras empresas.",
     "vision": "Nuestra Visión",
-    "visionText": "Al combinar las fortalezas de nuestras 4 empresas que son líderes en sus sectores, proporcionamos a nuestros clientes los productos y servicios de la más alta calidad. Al trabajar con el objetivo de la excelencia en el área de experiencia propia de cada empresa, construimos un futuro más fuerte juntos.",
-    "visionText2": "Con nuestros equipos experimentados e infraestructura sólida, cada una de nuestras empresas está en una posición de liderazgo en su propio campo.",
+    "visionText": "Al combinar las fortalezas de nuestras 4 empresas que son líderes en sus sectores, proporcionamos a nuestros clientes los productos y servicios de la más alta calidad. Al trabajar con el objetivo de la excelencia en el área de experiencia propia de cada empresa, construimos juntos un futuro más fuerte.",
+    "visionText2": "Con nuestros equipos experimentados y fuerte infraestructura, cada una de nuestras empresas está en una posición de liderazgo en su propio campo.",
     "stats": {
       "companies": "Empresas",
       "companiesDesc": "Empresa Holding",
       "unlimited": "Ilimitado",
       "unlimitedDesc": "Potencial e Innovación",
       "customer": "Cliente",
-      "customerDesc": "Enfocado en la Satisfacción"
+      "customerDesc": "Enfoque en Satisfacción"
     },
     "features": {
       "unity": {
@@ -47,31 +47,31 @@
   "companies": {
     "title": "Nuestras Empresas",
     "subtitle": "4 empresas diferentes que operan bajo el paraguas de United Super Brands, cada una especializada y líder en su propio campo.",
-    "albaFood": {
-      "name": "Alba Food",
+    "albaFoodTrading": {
+      "name": "Alba Food Trading B.V.",
       "description": "Empresa líder que proporciona productos de calidad y soluciones innovadoras en el sector alimentario.",
-      "features": ["Productos Alimentarios de Calidad", "Soluciones Innovadoras", "Suministro Confiable"]
+      "features": ["Productos Alimenticios de Calidad", "Soluciones Innovadoras", "Suministro Confiable"]
+    },
+    "albaFoodAmsterdam": {
+      "name": "Alba Food Amsterdam",
+      "description": "Empresa especializada en comercio de alimentos con sede en Ámsterdam, que proporciona productos y servicios alimentarios premium.",
+      "features": ["Productos Alimenticios Premium", "Sede en Ámsterdam", "Servicio de Calidad"]
     },
     "usbFood": {
       "name": "USB Food",
       "description": "Empresa especializada en tecnologías alimentarias y soluciones digitales.",
       "features": ["Tecnologías Alimentarias", "Soluciones Digitales", "Producción Sostenible"]
     },
-    "loremIpsum1": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
-    },
-    "loremIpsum2": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    "dutcheys": {
+      "name": "Dutchey's Dutch Sweet Company",
+      "description": "Especializada en dulces y productos de confitería holandeses, llevando sabores tradicionales holandeses al mundo.",
+      "features": ["Dulces Holandeses", "Sabores Tradicionales", "Confitería de Calidad"]
     },
     "contactInfo": "Información de Contacto",
     "cta": {
       "title": "Una Familia Fuerte",
       "subtitle": "Construimos un futuro más fuerte juntos con nuestras 4 empresas.",
-      "button": "Más Información"
+      "button": "Saber Más"
     }
   },
   "footer": {
@@ -84,7 +84,7 @@
     "links": {
       "career": "Carrera",
       "press": "Prensa",
-      "faq": "Preguntas Frecuentes",
+      "faq": "FAQ",
       "privacy": "Política de Privacidad"
     },
     "newsletter": {
@@ -101,6 +101,7 @@
     "nl": "Nederlands",
     "de": "Deutsch",
     "es": "Español",
-    "ar": "العربية"
+    "ar": "العربية",
+    "fr": "Français"
   }
 }

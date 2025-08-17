@@ -1,22 +1,22 @@
 {
   "navigation": {
     "home": "Startseite",
-    "about": "Über Uns",
+    "about": "Über uns",
     "companies": "Unsere Unternehmen",
     "contact": "Kontakt"
   },
   "hero": {
     "title": "United Super Brands",
     "subtitle": "Als Holding von 4 verschiedenen Unternehmen schaffen wir eine starke Familie",
-    "discoverButton": "Entdecken Sie Unsere Unternehmen",
-    "contactButton": "Kontaktieren Sie Uns"
+    "discoverButton": "Entdecken Sie unsere Unternehmen",
+    "contactButton": "Kontaktieren Sie uns"
   },
   "about": {
-    "title": "Über Uns",
+    "title": "Über uns",
     "subtitle": "United Super Brands, als Holding von 4 verschiedenen Unternehmen, schafft eine stärkere Struktur durch die Kombination der Stärken jedes unserer Unternehmen.",
     "vision": "Unsere Vision",
-    "visionText": "Durch die Kombination der Stärken unserer 4 Unternehmen, die in ihren Sektoren führend sind, bieten wir unseren Kunden die höchste Qualität an Produkten und Dienstleistungen. Durch die Arbeit mit dem Ziel der Exzellenz im eigenen Fachgebiet jedes Unternehmens bauen wir gemeinsam eine stärkere Zukunft auf.",
-    "visionText2": "Mit unseren erfahrenen Teams und starker Infrastruktur steht jedes unserer Unternehmen in einer führenden Position auf seinem eigenen Gebiet.",
+    "visionText": "Durch die Kombination der Stärken unserer 4 Unternehmen, die in ihren Sektoren führend sind, bieten wir unseren Kunden die höchste Qualität an Produkten und Dienstleistungen. Durch die Arbeit mit dem Ziel der Exzellenz im eigenen Fachgebiet jedes Unternehmens bauen wir gemeinsam eine stärkere Zukunft.",
+    "visionText2": "Mit unseren erfahrenen Teams und starker Infrastruktur ist jedes unserer Unternehmen in seinem eigenen Bereich in einer führenden Position.",
     "stats": {
       "companies": "Unternehmen",
       "companiesDesc": "Holding Unternehmen",
@@ -47,30 +47,30 @@
   "companies": {
     "title": "Unsere Unternehmen",
     "subtitle": "4 verschiedene Unternehmen, die unter dem Dach von United Super Brands tätig sind, jedes spezialisiert und führend in seinem eigenen Bereich.",
-    "albaFood": {
-      "name": "Alba Food",
+    "albaFoodTrading": {
+      "name": "Alba Food Trading B.V.",
       "description": "Führendes Unternehmen, das Qualitätsprodukte und innovative Lösungen im Lebensmittelsektor anbietet.",
-      "features": ["Qualitätslebensmittelprodukte", "Innovative Lösungen", "Zuverlässige Lieferung"]
+      "features": ["Qualitätslebensmittel", "Innovative Lösungen", "Zuverlässige Lieferung"]
+    },
+    "albaFoodAmsterdam": {
+      "name": "Alba Food Amsterdam",
+      "description": "Spezialisiertes Lebensmittelhandelsunternehmen mit Sitz in Amsterdam, das Premium-Lebensmittelprodukte und -dienstleistungen anbietet.",
+      "features": ["Premium-Lebensmittelprodukte", "Sitz in Amsterdam", "Qualitätsdienstleistung"]
     },
     "usbFood": {
       "name": "USB Food",
       "description": "Unternehmen, das sich auf Lebensmitteltechnologien und digitale Lösungen spezialisiert hat.",
       "features": ["Lebensmitteltechnologien", "Digitale Lösungen", "Nachhaltige Produktion"]
     },
-    "loremIpsum1": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
-    },
-    "loremIpsum2": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    "dutcheys": {
+      "name": "Dutchey's Dutch Sweet Company",
+      "description": "Spezialisiert auf niederländische Süßigkeiten und Konditoreiprodukte, bringt traditionelle niederländische Aromen in die Welt.",
+      "features": ["Niederländische Süßigkeiten", "Traditionelle Aromen", "Qualitätskonditorei"]
     },
     "contactInfo": "Kontaktinformationen",
     "cta": {
       "title": "Eine Starke Familie",
-      "subtitle": "Wir bauen gemeinsam eine stärkere Zukunft mit unseren 4 Unternehmen auf.",
+      "subtitle": "Wir bauen gemeinsam eine stärkere Zukunft mit unseren 4 Unternehmen.",
       "button": "Mehr Erfahren"
     }
   },
@@ -88,7 +88,7 @@
       "privacy": "Datenschutzrichtlinie"
     },
     "newsletter": {
-      "title": "Abonnieren Sie Unseren Newsletter",
+      "title": "Treten Sie unserem Newsletter bei",
       "subtitle": "Abonnieren Sie die neuesten Nachrichten und Updates.",
       "placeholder": "Ihre E-Mail-Adresse",
       "button": "Abonnieren"
@@ -101,6 +101,7 @@
     "nl": "Nederlands",
     "de": "Deutsch",
     "es": "Español",
-    "ar": "العربية"
+    "ar": "العربية",
+    "fr": "Français"
   }
 }

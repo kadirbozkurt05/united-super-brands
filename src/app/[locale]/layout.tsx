@@ -42,7 +42,7 @@ export default async function LocaleLayout({
   const { locale } = await params;
   
   // Desteklenen diller kontrolü
-  const locales = ['tr', 'en', 'nl', 'de', 'es', 'ar'];
+  const locales = ['tr', 'en', 'nl', 'de', 'es', 'ar', 'fr'];
   if (!locales.includes(locale)) {
     notFound();
   }

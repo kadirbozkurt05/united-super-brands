@@ -47,25 +47,25 @@
   "companies": {
     "title": "Şirketlerimiz",
     "subtitle": "United Super Brands çatısı altında faaliyet gösteren 4 farklı şirketimiz, her biri kendi alanında uzmanlaşmış ve lider konumda yer almaktadır.",
-    "albaFood": {
-      "name": "Alba Food",
-      "description": "Gıda sektöründe kaliteli ürünler ve yenilikçi çözümler sunan lider şirket.",
+    "albaFoodTrading": {
+      "name": "Alba Food Trading B.V.",
+      "description": "Gıda sektöründe kaliteli ürünler ve yenilikçi çözümler sunan öncü şirket.",
       "features": ["Kaliteli Gıda Ürünleri", "Yenilikçi Çözümler", "Güvenilir Tedarik"]
+    },
+    "albaFoodAmsterdam": {
+      "name": "Alba Food Amsterdam",
+      "description": "Amsterdam merkezli, premium gıda ürünleri ve hizmetleri sunan uzman gıda ticaret şirketi.",
+      "features": ["Premium Gıda Ürünleri", "Amsterdam Merkezli", "Kaliteli Hizmet"]
     },
     "usbFood": {
       "name": "USB Food",
       "description": "Gıda teknolojileri ve dijital çözümler konusunda uzmanlaşmış şirket.",
       "features": ["Gıda Teknolojileri", "Dijital Çözümler", "Sürdürülebilir Üretim"]
     },
-    "loremIpsum1": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
-    },
-    "loremIpsum2": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    "dutcheys": {
+      "name": "Dutchey's Dutch Sweet Company",
+      "description": "Hollanda şekerlemeleri ve tatlı ürünleri konusunda uzmanlaşmış, geleneksel Hollanda lezzetlerini dünyaya sunan şirket.",
+      "features": ["Hollanda Şekerlemeleri", "Geleneksel Lezzetler", "Kaliteli Tatlılar"]
     },
     "contactInfo": "İletişim Bilgileri",
     "cta": {
@@ -101,6 +101,7 @@
     "nl": "Nederlands",
     "de": "Deutsch",
     "es": "Español",
-    "ar": "العربية"
+    "ar": "العربية",
+    "fr": "Français"
   }
 }

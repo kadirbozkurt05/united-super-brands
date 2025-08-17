@@ -15,15 +15,15 @@
     "title": "من نحن",
     "subtitle": "United Super Brands، كشركة قابضة لـ 4 شركات مختلفة، تخلق هيكلاً أقوى من خلال الجمع بين نقاط القوة لكل من شركاتنا.",
     "vision": "رؤيتنا",
-    "visionText": "من خلال الجمع بين نقاط القوة لشركاتنا الأربع التي هي رائدة في قطاعاتها، نقدم لعملائنا أعلى جودة من المنتجات والخدمات. من خلال العمل بهدف التميز في مجال الخبرة الخاص بكل شركة، نبني مستقبلاً أقوى معاً.",
-    "visionText2": "مع فرقنا الخبيرة والبنية التحتية القوية، كل من شركاتنا في موقع ريادي في مجالها الخاص.",
+    "visionText": "من خلال الجمع بين نقاط القوة لشركاتنا الأربع التي هي رائدة في قطاعاتها، نقدم لعملائنا أعلى جودة من المنتجات والخدمات. من خلال العمل بهدف التميز في مجال الخبرة الخاص بكل شركة، نبني معاً مستقبلاً أقوى.",
+    "visionText2": "مع فرقنا الخبيرة والبنية التحتية القوية، كل من شركاتنا في موقع رائد في مجالها الخاص.",
     "stats": {
       "companies": "الشركات",
-      "companiesDesc": "الشركة القابضة",
+      "companiesDesc": "شركة قابضة",
       "unlimited": "غير محدود",
       "unlimitedDesc": "الإمكانات والابتكار",
       "customer": "العميل",
-      "customerDesc": "التركيز على الرضا"
+      "customerDesc": "مركز على الرضا"
     },
     "features": {
       "unity": {
@@ -32,7 +32,7 @@
       },
       "team": {
         "title": "الفريق الخبير",
-        "description": "كل من شركاتنا لديها فرق مهنية مع سنوات من الخبرة."
+        "description": "كل من شركاتنا لديها فرق مهنية بخبرة سنوات."
       },
       "network": {
         "title": "الشبكة الواسعة",
@@ -47,30 +47,30 @@
   "companies": {
     "title": "شركاتنا",
     "subtitle": "4 شركات مختلفة تعمل تحت مظلة United Super Brands، كل منها متخصصة ورائدة في مجالها الخاص.",
-    "albaFood": {
-      "name": "Alba Food",
-      "description": "شركة رائدة تقدم منتجات عالية الجودة وحلول مبتكرة في قطاع الأغذية.",
+    "albaFoodTrading": {
+      "name": "Alba Food Trading B.V.",
+      "description": "شركة رائدة توفر منتجات عالية الجودة وحلول مبتكرة في قطاع الأغذية.",
       "features": ["منتجات غذائية عالية الجودة", "حلول مبتكرة", "إمداد موثوق"]
+    },
+    "albaFoodAmsterdam": {
+      "name": "Alba Food Amsterdam",
+      "description": "شركة متخصصة في تجارة الأغذية مقرها أمستردام، توفر منتجات وخدمات غذائية فاخرة.",
+      "features": ["منتجات غذائية فاخرة", "مقر أمستردام", "خدمة عالية الجودة"]
     },
     "usbFood": {
       "name": "USB Food",
       "description": "شركة متخصصة في تقنيات الأغذية والحلول الرقمية.",
       "features": ["تقنيات الأغذية", "الحلول الرقمية", "الإنتاج المستدام"]
     },
-    "loremIpsum1": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
-    },
-    "loremIpsum2": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    "dutcheys": {
+      "name": "Dutchey's Dutch Sweet Company",
+      "description": "متخصصة في الحلويات الهولندية ومنتجات الحلويات، تجلب النكهات الهولندية التقليدية إلى العالم.",
+      "features": ["حلويات هولندية", "نكهات تقليدية", "حلويات عالية الجودة"]
     },
     "contactInfo": "معلومات الاتصال",
     "cta": {
       "title": "عائلة قوية",
-      "subtitle": "نبني مستقبلاً أقوى معاً مع شركاتنا الأربع.",
+      "subtitle": "نبني معاً مستقبلاً أقوى مع شركاتنا الأربع.",
       "button": "اعرف المزيد"
     }
   },
@@ -101,6 +101,7 @@
     "nl": "Nederlands",
     "de": "Deutsch",
     "es": "Español",
-    "ar": "العربية"
+    "ar": "العربية",
+    "fr": "Français"
   }
 }

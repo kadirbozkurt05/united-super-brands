@@ -5,18 +5,13 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import LanguageSwitcher from './LanguageSwitcher';
+import { companies } from '../data/companies';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isCompaniesOpen, setIsCompaniesOpen] = useState(false);
   const t = useTranslations();
 
-  const companies = [
-    { name: 'Alba Food', href: '#alba-food' },
-    { name: 'USB Food', href: '#usb-food' },
-    { name: 'Lorem Ipsum', href: '#lorem-ipsum-1' },
-    { name: 'Lorem Ipsum', href: '#lorem-ipsum-2' },
-  ];
 
   const navigation = [
     { name: t('navigation.home'), href: '#home' },
@@ -26,7 +21,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
+    <header className="fixed cursor-pointer top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -61,11 +56,11 @@ const Header = () => {
                       <div className="absolute top-full left-0 mt-1 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2">
                         {item.dropdownItems?.map((company) => (
                           <a
-                            key={company.name}
-                            href={company.href}
+                            key={t(`companies.${company.translationKey}.name`)}
+                            href={`#${company.id}`}
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-blue-600 transition-colors duration-200"
                           >
-                            {company.name}
+                            {t(`companies.${company.translationKey}.name`)}
                           </a>
                         ))}
                       </div>
@@ -135,12 +130,12 @@ const Header = () => {
                   <div className="pl-4 space-y-1">
                     {companies.map((company) => (
                       <a
-                        key={company.name}
-                        href={company.href}
+                        key={t(`companies.${company.translationKey}.name`)}
+                        href={`#${company.id}`}
                         className="text-gray-600 hover:text-blue-600 block px-3 py-2 text-sm font-medium transition-colors duration-200"
                         onClick={() => setIsMenuOpen(false)}
                       >
-                        {company.name}
+                        {t(`companies.${company.translationKey}.name`)}
                       </a>
                     ))}
                   </div>

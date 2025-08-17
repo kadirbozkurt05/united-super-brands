@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { ChevronDown, Globe } from 'lucide-react';
 import { useRouter, usePathname } from 'next/navigation';
 
-const locales = ['tr', 'en', 'nl', 'de', 'es', 'ar'];
+const locales = ['tr', 'en', 'nl', 'de', 'es', 'ar', 'fr'];
 
 const LanguageSwitcher = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -87,7 +87,8 @@ const LanguageSwitcher = () => {
     nl: '🇳🇱',
     de: '🇩🇪',
     es: '🇪🇸',
-    ar: '🇸🇦'
+    ar: '🇸🇦',
+    fr: '🇫🇷'
   };
 
   const languageNames = {
@@ -96,7 +97,8 @@ const LanguageSwitcher = () => {
     nl: 'Nederlands',
     de: 'Deutsch',
     es: 'Español',
-    ar: 'العربية'
+    ar: 'العربية',
+    fr: 'Français'
   };
 
   const handleLanguageChange = (newLocale: string) => {

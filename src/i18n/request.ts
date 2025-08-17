@@ -7,7 +7,7 @@ export default getRequestConfig(async ({ locale }) => {
   }
 
   // Desteklenen diller kontrolü
-  const supportedLocales = ['tr', 'en', 'nl', 'de', 'es', 'ar'];
+  const supportedLocales = ['tr', 'en', 'nl', 'de', 'es', 'ar', 'fr'];
   if (!supportedLocales.includes(locale)) {
     locale = 'tr';
   }
@@ -19,7 +19,7 @@ export default getRequestConfig(async ({ locale }) => {
       locale,
       messages
     };
-  } catch {
+  } catch (error) {
     // Fallback to Turkish
     const fallbackMessages = (await import(`./messages/tr.json`)).default;
     

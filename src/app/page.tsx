@@ -6,7 +6,7 @@ export default async function RootPage() {
   const acceptLanguage = headersList.get('accept-language');
   
   // Desteklenen diller
-  const supportedLocales = ['tr', 'en', 'nl', 'de', 'es', 'ar'];
+  const supportedLocales = ['tr', 'en', 'nl', 'de', 'es', 'ar', 'fr'];
   
   // Browser dilini algıla
   let preferredLocale = 'tr'; // Varsayılan

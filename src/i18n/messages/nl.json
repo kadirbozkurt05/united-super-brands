@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Home",
-    "about": "Over Ons",
+    "about": "Over ons",
     "companies": "Onze Bedrijven",
     "contact": "Contact"
   },
@@ -13,10 +13,10 @@
   },
   "about": {
     "title": "Over Ons",
-    "subtitle": "United Super Brands, als holding van 4 verschillende bedrijven, creëert een sterkere structuur door de sterke punten van elk van onze bedrijven te combineren.",
+    "subtitle": "United Super Brands, als holding van 4 verschillende bedrijven, creëert een sterkere structuur door de krachten van elk van onze bedrijven te combineren.",
     "vision": "Onze Visie",
-    "visionText": "Door de sterke punten van onze 4 bedrijven die leiders zijn in hun sectoren te combineren, bieden we onze klanten de hoogste kwaliteit producten en diensten. Door te werken met het doel van excellentie in het eigen expertisegebied van elk bedrijf, bouwen we samen aan een sterkere toekomst.",
-    "visionText2": "Met onze ervaren teams en sterke infrastructuur staat elk van onze bedrijven in een leidende positie op hun eigen gebied.",
+    "visionText": "Door de krachten van onze 4 bedrijven die leiders zijn in hun sectoren te combineren, bieden we onze klanten de hoogste kwaliteit producten en diensten. Door te werken met het doel van excellentie in het eigen expertisegebied van elk bedrijf, bouwen we samen een sterkere toekomst.",
+    "visionText2": "Met onze ervaren teams en sterke infrastructuur staat elk van onze bedrijven in een leidende positie in hun eigen vakgebied.",
     "stats": {
       "companies": "Bedrijven",
       "companiesDesc": "Holding Bedrijf",
@@ -28,14 +28,14 @@
     "features": {
       "unity": {
         "title": "Sterke Eenheid",
-        "description": "We creëren een sterkere structuur door de sterke punten van 4 verschillende bedrijven te combineren."
+        "description": "We creëren een sterkere structuur door de krachten van 4 verschillende bedrijven te combineren."
       },
       "team": {
         "title": "Ervaren Team",
         "description": "Elk van onze bedrijven heeft professionele teams met jarenlange ervaring."
       },
       "network": {
-        "title": "Uitgebreid Netwerk",
+        "title": "Wijd Netwerk",
         "description": "We bieden uitgebreide oplossingen met het sterke netwerk van onze 4 verschillende bedrijven."
       },
       "quality": {
@@ -46,36 +46,36 @@
   },
   "companies": {
     "title": "Onze Bedrijven",
-    "subtitle": "4 verschillende bedrijven die opereren onder de United Super Brands paraplu, elk gespecialiseerd en leidend in hun eigen veld.",
-    "albaFood": {
-      "name": "Alba Food",
-      "description": "Leidend bedrijf dat kwaliteitsproducten en innovatieve oplossingen biedt in de voedingssector.",
+    "subtitle": "4 verschillende bedrijven die onder de paraplu van United Super Brands opereren, elk gespecialiseerd en leidend in hun eigen vakgebied.",
+    "albaFoodTrading": {
+      "name": "Alba Food Trading B.V.",
+      "description": "Toonaangevend bedrijf dat kwaliteitsproducten en innovatieve oplossingen biedt in de voedingssector.",
       "features": ["Kwaliteitsvoedingsproducten", "Innovatieve Oplossingen", "Betrouwbare Levering"]
+    },
+    "albaFoodAmsterdam": {
+      "name": "Alba Food Amsterdam",
+      "description": "Gespecialiseerd voedingshandelsbedrijf gevestigd in Amsterdam, dat premium voedingsproducten en diensten levert.",
+      "features": ["Premium Voedingsproducten", "Gevestigd in Amsterdam", "Kwaliteitsservice"]
     },
     "usbFood": {
       "name": "USB Food",
       "description": "Bedrijf gespecialiseerd in voedingstechnologieën en digitale oplossingen.",
       "features": ["Voedingstechnologieën", "Digitale Oplossingen", "Duurzame Productie"]
     },
-    "loremIpsum1": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
-    },
-    "loremIpsum2": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    "dutcheys": {
+      "name": "Dutchey's Dutch Sweet Company",
+      "description": "Gespecialiseerd in Nederlandse snoepjes en zoetwaren, brengt traditionele Nederlandse smaken naar de wereld.",
+      "features": ["Nederlandse Snoepjes", "Traditionele Smaken", "Kwaliteitszoetwaren"]
     },
     "contactInfo": "Contactgegevens",
     "cta": {
       "title": "Een Sterke Familie",
-      "subtitle": "We bouwen samen aan een sterkere toekomst met onze 4 bedrijven.",
+      "subtitle": "We bouwen samen een sterkere toekomst met onze 4 bedrijven.",
       "button": "Meer Informatie"
     }
   },
   "footer": {
-    "description": "Als holding van 4 verschillende bedrijven creëren we een sterkere structuur door de sterke punten van elk van onze bedrijven te combineren.",
+    "description": "Als holding van 4 verschillende bedrijven creëren we een sterkere structuur door de krachten van elk van onze bedrijven te combineren.",
     "sections": {
       "company": "Bedrijf",
       "companies": "Onze Bedrijven",
@@ -88,7 +88,7 @@
       "privacy": "Privacybeleid"
     },
     "newsletter": {
-      "title": "Schrijf Je In Voor Onze Nieuwsbrief",
+      "title": "Doe Mee met Onze Nieuwsbrief",
       "subtitle": "Abonneer je op het laatste nieuws en updates.",
       "placeholder": "Je e-mailadres",
       "button": "Abonneren"
@@ -101,6 +101,7 @@
     "nl": "Nederlands",
     "de": "Deutsch",
     "es": "Español",
-    "ar": "العربية"
+    "ar": "العربية",
+    "fr": "Français"
   }
 }

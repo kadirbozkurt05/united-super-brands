@@ -47,25 +47,25 @@
   "companies": {
     "title": "Our Companies",
     "subtitle": "4 different companies operating under the United Super Brands umbrella, each specialized and leading in their own field.",
-    "albaFood": {
-      "name": "Alba Food",
+    "albaFoodTrading": {
+      "name": "Alba Food Trading B.V.",
       "description": "Leading company providing quality products and innovative solutions in the food sector.",
       "features": ["Quality Food Products", "Innovative Solutions", "Reliable Supply"]
+    },
+    "albaFoodAmsterdam": {
+      "name": "Alba Food Amsterdam",
+      "description": "Specialized food trading company based in Amsterdam, providing premium food products and services.",
+      "features": ["Premium Food Products", "Amsterdam Based", "Quality Service"]
     },
     "usbFood": {
       "name": "USB Food",
       "description": "Company specialized in food technologies and digital solutions.",
       "features": ["Food Technologies", "Digital Solutions", "Sustainable Production"]
     },
-    "loremIpsum1": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
-    },
-    "loremIpsum2": {
-      "name": "Lorem Ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.",
-      "features": ["Lorem Feature 1", "Lorem Feature 2", "Lorem Feature 3"]
+    "dutcheys": {
+      "name": "Dutchey's Dutch Sweet Company",
+      "description": "Specialized in Dutch sweets and confectionery products, bringing traditional Dutch flavors to the world.",
+      "features": ["Dutch Sweets", "Traditional Flavors", "Quality Confectionery"]
     },
     "contactInfo": "Contact Information",
     "cta": {
@@ -101,6 +101,7 @@
     "nl": "Nederlands",
     "de": "Deutsch",
     "es": "Español",
-    "ar": "العربية"
+    "ar": "العربية",
+    "fr": "Français"
   }
 }

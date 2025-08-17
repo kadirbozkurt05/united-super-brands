@@ -5,63 +5,15 @@ import {
   Building2, 
   MapPin,
   Phone,
-  Mail
+  Mail,
+  Globe
 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
+import { companies } from '../data/companies';
 
 const Companies = () => {
   const t = useTranslations();
-
-  const companies = [
-    {
-      id: 'alba-food',
-      name: t('companies.albaFood.name'),
-      description: t('companies.albaFood.description'),
-      image: '/assets/alba-food.jpg',
-      features: t.raw('companies.albaFood.features'),
-      contact: {
-        phone: '+90 (212) 555 0101',
-        email: 'info@albafood.com',
-        address: 'İstanbul, Türkiye'
-      }
-    },
-    {
-      id: 'usb-food',
-      name: t('companies.usbFood.name'),
-      description: t('companies.usbFood.description'),
-      image: '/assets/usb-food.jpg',
-      features: t.raw('companies.usbFood.features'),
-      contact: {
-        phone: '+90 (212) 555 0102',
-        email: 'info@usbfood.com',
-        address: 'İstanbul, Türkiye'
-      }
-    },
-    {
-      id: 'lorem-ipsum-1',
-      name: t('companies.loremIpsum1.name'),
-      description: t('companies.loremIpsum1.description'),
-      image: '/assets/lorem-ipsum-1.jpg',
-      features: t.raw('companies.loremIpsum1.features'),
-      contact: {
-        phone: '+90 (212) 555 0103',
-        email: 'info@loremipsum1.com',
-        address: 'İstanbul, Türkiye'
-      }
-    },
-    {
-      id: 'lorem-ipsum-2',
-      name: t('companies.loremIpsum2.name'),
-      description: t('companies.loremIpsum2.description'),
-      image: '/assets/lorem-ipsum-2.jpg',
-      features: t.raw('companies.loremIpsum2.features'),
-      contact: {
-        phone: '+90 (212) 555 0104',
-        email: 'info@loremipsum2.com',
-        address: 'İstanbul, Türkiye'
-      }
-    }
-  ];
 
   return (
     <section id="companies" className="py-20 bg-gray-50">
@@ -97,15 +49,15 @@ const Companies = () => {
               {/* Company Info */}
               <div className={index % 2 === 1 ? 'lg:col-start-2' : ''}>
                 <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                  {company.name}
+                  {t(`companies.${company.translationKey}.name`)}
                 </h3>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  {company.description}
+                  {t(`companies.${company.translationKey}.description`)}
                 </p>
                 
                 {/* Features */}
                 <div className="space-y-4 mb-8">
-                  {company.features.map((feature: string, featureIndex: number) => (
+                  {t.raw(`companies.${company.translationKey}.features`).map((feature: string, featureIndex: number) => (
                     <div key={featureIndex} className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                       <span className="text-gray-700 font-medium">{feature}</span>
@@ -121,9 +73,19 @@ const Companies = () => {
                       <Phone className="w-5 h-5 text-blue-600" />
                       <span className="text-gray-600">{company.contact.phone}</span>
                     </div>
+                    {company.contact.fax && (
+                      <div className="flex items-center space-x-3">
+                        <Phone className="w-5 h-5 text-blue-600" />
+                        <span className="text-gray-600">Fax: {company.contact.fax}</span>
+                      </div>
+                    )}
                     <div className="flex items-center space-x-3">
                       <Mail className="w-5 h-5 text-blue-600" />
                       <span className="text-gray-600">{company.contact.email}</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <Globe className="w-5 h-5 text-blue-600" />
+                      <span className="text-gray-600">{company.contact.website}</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <MapPin className="w-5 h-5 text-blue-600" />
@@ -137,12 +99,14 @@ const Companies = () => {
               <div className={index % 2 === 1 ? 'lg:col-start-1' : ''}>
                 <div className="relative">
                   <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
-                    <div className="w-full h-80 bg-gradient-to-br from-blue-100 to-indigo-200 rounded-2xl flex items-center justify-center">
-                      <div className="text-center">
-                        <Building2 className="w-16 h-16 text-blue-600 mx-auto mb-4" />
-                        <p className="text-gray-600 font-medium">Görsel Eklenecek</p>
-                        <p className="text-sm text-gray-500 mt-2">{company.name}</p>
-                      </div>
+                    <div className="w-full h-80 bg-white rounded-2xl flex items-center justify-center p-8">
+                      <Image
+                        src={company.image}
+                        alt={t(`companies.${company.translationKey}.name`)}
+                        width={300}
+                        height={200}
+                        className="object-contain max-w-full max-h-full"
+                      />
                     </div>
                   </div>
                 </div>
