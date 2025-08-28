@@ -2,6 +2,7 @@ export interface Company {
   id: string;
   translationKey: string;
   image: string;
+  bgColor: string;
   contact: {
     phone: string;
     email: string;
@@ -16,6 +17,7 @@ export const companies: Company[] = [
     id: 'alba-food-trading',
     translationKey: 'albaFoodTrading',
     image: '/assets/companies/albaBv.png',
+    bgColor: '#FFFFFF',
     contact: {
       phone: '+31 17 255 1736',
       email: 'info@albafood.nl',
@@ -26,6 +28,7 @@ export const companies: Company[] = [
   {
     id: 'alba-food-amsterdam',
     translationKey: 'albaFoodAmsterdam',
+    bgColor: '#FFFFFF',
     image: '/assets/companies/alba.png',
     contact: {
       phone: '+31 20 488 9351',
@@ -37,6 +40,7 @@ export const companies: Company[] = [
   {
     id: 'usb-food',
     translationKey: 'usbFood',
+    bgColor: '#EDF3F5',
     image: '/assets/companies/usbfood.png',
     contact: {
       phone: '+31 20 488 9351',
@@ -48,6 +52,7 @@ export const companies: Company[] = [
   {
     id: 'dutcheys',
     translationKey: 'dutcheys',
+    bgColor: '#F05C21',
     image: '/assets/companies/dutcheys.jpeg',
     contact: {
       phone: '010-318 1008',

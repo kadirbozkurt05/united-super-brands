@@ -99,7 +99,10 @@ const Companies = () => {
               <div className={index % 2 === 1 ? 'lg:col-start-1' : ''}>
                 <div className="relative">
                   <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
-                    <div className="w-full h-80 bg-white rounded-2xl flex items-center justify-center p-8">
+                    <div 
+                      className="w-full h-80 rounded-2xl flex items-center justify-center p-8"
+                      style={{ backgroundColor: company.bgColor }}
+                    >
                       <Image
                         src={company.image}
                         alt={t(`companies.${company.translationKey}.name`)}
