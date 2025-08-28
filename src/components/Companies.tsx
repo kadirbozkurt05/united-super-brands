@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { 
-  Building2, 
   MapPin,
   Phone,
   Mail,
@@ -11,6 +10,7 @@ import {
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { companies } from '../data/companies';
+import Link from 'next/link';
 
 const Companies = () => {
   const t = useTranslations();
@@ -133,9 +133,10 @@ const Companies = () => {
             <p className="text-xl mb-8 opacity-90">
               {t('companies.cta.subtitle')}
             </p>
-            <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-300">
+            <Link  href="#alba-food-trading">             <button className="bg-white cursor-pointer text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-300">
               {t('companies.cta.button')}
-            </button>
+            </button> </Link>
+
           </div>
         </motion.div>
       </div>

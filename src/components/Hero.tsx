@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Hero = () => {
   const t = useTranslations();
@@ -30,13 +31,14 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
-          <button className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
+          <Link href="#alba-food-trading">          <button  className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
             {t('hero.discoverButton')}
             <ArrowRight className="w-5 h-5" />
-          </button>
-          <button className="border-2 border-white/50 hover:border-white text-white hover:bg-white/10 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 backdrop-blur-sm">
+          </button></Link>  
+
+          <Link href="#contact">          <button className="border-2 border-white/50 hover:border-white text-white hover:bg-white/10 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 backdrop-blur-sm">
             {t('hero.contactButton')}
-          </button>
+          </button></Link>
         </motion.div>
       </div>
     </section>
